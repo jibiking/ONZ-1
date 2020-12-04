@@ -12,6 +12,21 @@ a{
   width: 960px;
   margin: 0 auto;
 }
+.ttl__contents{
+  display: flex;
+}
+.ttl__img{
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.ttl__txt{
+  font-size: 20px;
+  color: #555;
+}
+
 
 /* //base */
 
@@ -55,6 +70,7 @@ a{
 /* fv */
 .fv{
   width: 100%;
+  margin-bottom: 35px;
 }
 .fv__slide{
   display: flex;
@@ -132,6 +148,31 @@ a{
 
 /* //fv */
 
+/* info */
+.bb{
+  border-bottom: 1px solid #FFBEBE;
+}
+.info .ttl__contents{
+  margin-bottom: 8px;
+}
+.info__btn{
+  margin-left: auto;
+  background-color: #FF6666;
+  border: none;
+  border-radius: 5px;
+}
+.info__btn a {
+  font-size: 14px;
+  color: #fff;
+  padding: 6px;
+}
+.info__btn-dir{
+  padding-left: 7px;
+}
+
+
+
+/* //info */
 
 
 

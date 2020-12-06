@@ -2,7 +2,8 @@
 html{
   text-decoration: none;
   color: #333;
-  font-family: TsukuA-400;
+  font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+  font-weight: 400;
 }
 a{
   text-decoration: none;
@@ -27,13 +28,18 @@ a{
   color: #555;
 }
 
+button{
+  border: none;
+  background-color: transparent;
+}
+
 
 /* //base */
 
 /* header */
 .header__top{
   font-size: 12px;
-  background-color: #f3c9cc;
+  background-image: url(img/bg-pink-p.png);
   line-height: 24px;
   text-align: center;
   margin-bottom: 30px;
@@ -78,14 +84,6 @@ a{
   overflow: hidden;
 }
 
-.fv__btn-pre{
-  background :transparent;
-  border: none;
-}
-.fv__btn-nex{
-  background :transparent;
-  border: none;
-}
 .arrow_l {
   position: absolute;
   top: 60%;
@@ -149,28 +147,76 @@ a{
 /* //fv */
 
 /* info */
+.info{
+  margin-bottom: 50px;
+}
 .bb{
   border-bottom: 1px solid #FFBEBE;
+}
+.info .ttl{
+  margin-bottom: 20px;
 }
 .info .ttl__contents{
   margin-bottom: 8px;
 }
-.info__btn{
+/* .info__btn */
+.info button{
+  width: 120px;
+  height: 38px;
   margin-left: auto;
-  background-color: #FF6666;
-  border: none;
-  border-radius: 5px;
 }
-.info__btn a {
-  font-size: 14px;
+.info__btn{
+  display: block;
+  font-size: 13px;
   color: #fff;
-  padding: 6px;
+  padding: 6px 0 5px 0;
+  background-color: #FF6666;
+  border: 1px solid #FF6666;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 .info__btn-dir{
   padding-left: 7px;
 }
-
-
+.info__btn:hover{
+  color: #FF6666;
+  background-color: #fff;
+  transition: .3s;
+}
+/* info_media */
+.media{
+  display: flex;
+}
+.media__item{
+  margin-right: 48px;
+}
+.media__item:last-child{
+  margin-right: 0;
+}
+.media__item-ttl{
+  color: #FF6666;
+  background-image: url(img/bg-pink-p.png);
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 0 4px;
+}
+.media__item-img{
+  width: 288px;
+  height: 210px;
+  margin-bottom: 10px;
+}
+.media__item-txt{
+  border-bottom: 1px solid #ffbebe;
+  padding-bottom: 10px;
+}
+.media__item-txt time{
+font-size: 13px;
+color: #555555;
+}
+.media__item-txt p{
+  font-size: 16px;
+  color: #FF6666;
+}
 
 /* //info */
 

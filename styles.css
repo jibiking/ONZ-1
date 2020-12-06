@@ -351,4 +351,86 @@ top: 130px;
 /* //shopInfo */
 
 
+/* toTop */
+.toTop{
+  width: 40px;
+  height: 40px;
+  margin: 40px auto;
+}
+.toTop__img{
+  width: 40px;
+  height: 40px;
+}
+/* //toTop */
+
+
+/* slide-loop */
+.slide-loop{
+  display: flex;
+  overflow: hidden;
+}
+.slide-loop__img{
+  width: 260px;
+  height: 180px;
+  vertical-align: bottom;
+}
+
+/* //slide-loop */
+
+
+/* footer */
+.footer__wrap-top{
+  background-image: url(img/bg-pink-p.png);
+}
+.footer__top{
+  text-align: center;
+  padding: 50px 0 40px;
+}
+.footer__top-img{
+  width: 500px;
+  height: 75px;
+  margin-bottom: 20px;
+}
+.footer__top-txt{
+  font-size: 14px;
+}
+
+.footer__wrap-btm{
+  background-image: url(img/bg-pink-d.png);
+  padding: 6px 0 3px;
+}
+.footer__btm{
+  display: flex;
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  width: 960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.footer__btm a{
+  color: #fff;
+}
+.footer__btm p:nth-child(1)::before{
+  content: "";
+  border-left: 1px solid #fff;
+  margin: 0 9px;
+}
+.footer__btm p:nth-child(1)::after{
+  content: "";
+  border-right: 1px solid #fff;
+  margin: 0 9px;
+}
+.footer__btm p:nth-child(2)::after{
+  content: "";
+  border-right: 1px solid #fff;
+  margin: 0 9px;
+}
+.footer__btm-right{
+  margin-left: auto;
+}
+
+/* //footer */
+
+
 

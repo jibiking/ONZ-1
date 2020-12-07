@@ -8,6 +8,9 @@ html{
 a{
   text-decoration: none;
 }
+img{
+  vertical-align: bottom;
+}
 
 .contents{
   width: 960px;
@@ -83,9 +86,12 @@ button{
   margin-bottom: 35px;
 }
 .fv__slide{
-  display: flex;
-  width: 100%;
-  overflow: hidden;
+  position: relative;
+  width: 2880px;
+  right: 720px;
+}
+.fv__slide-item{
+  float: left;
 }
 
 .arrow_l {

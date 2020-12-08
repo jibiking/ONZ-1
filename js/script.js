@@ -40,12 +40,40 @@ $(function(){
     timer = setInterval(slideTimer, interval);
     slideTimer();
   });
+
+
+  // //slide-menu未完成
+
+
+  // shop
+
+  $(".shop__card-item").hover(function () {
+      // over
+      $(".shop__card-item-img_a").animate({"opacity" : .2}, 300);
+      $("shop__card-item-img_h").animate({"opacity" : 1}, 300);
+
+    }, function () {
+      // out
+      $(".shop__card-item-img_h").css("opacity", 0);
+      $(".shop__card-item-img_a").css("opacity", 1);
+    }
+  );
+
+  // shop未完成
+
+
+  // toTop
+  $(".toTop").click(function (e) {
+    $("html, body").animate({scrollTop : 0}, 500);
+  });
+  // //toTop
+
+
+  // slide-loop
   
 
-  // //slide-menu
 
-
-
+  // //slide-loop
 
 
 });

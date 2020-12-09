@@ -5,6 +5,8 @@ $(function(){
   var interval = 3000;
   var duration = 700;
   var timer;
+  var count = $(".fv__slide li").length;
+  
   $(".fv__slide").prepend($(".fv__slide li:last-child"));
   $(".fv__slide").css("left", -720);
   timer = setInterval(slideTimer, interval);
@@ -32,6 +34,7 @@ $(function(){
     clearInterval(timer);
     timer = setInterval(slideTimer, interval);
     slideTimer();
+    return false;
   });
 
   $(".arrow_r").click(function(){
@@ -39,6 +42,7 @@ $(function(){
     clearInterval(timer);
     timer = setInterval(slideTimer, interval);
     slideTimer();
+    return false;
   });
 
 
@@ -70,7 +74,7 @@ $(function(){
 
 
   // slide-loop
-  
+
 
 
   // //slide-loop

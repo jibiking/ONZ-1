@@ -368,15 +368,16 @@ top: 130px;
 
 
 /* slide-loop */
-.slide-loop{
+/* .slide-loop{
   display: flex;
   overflow: hidden;
-}
+} */
 .slide-loop__img{
   width: 260px;
   height: 180px;
   vertical-align: bottom;
 }
+
 
 /* //slide-loop */
 

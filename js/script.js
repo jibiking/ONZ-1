@@ -50,7 +50,28 @@ $(function () {
 
   // slide-loop
 
-
+  $('.slide-loop').slick({
+    arrows: false,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 6000,
+    swipe: false,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    centerMode: true, //要素を中央寄せ
+    centerPadding: '590px', //両サイドの見えている部分のサイズ
+    autoplay: true, //自動再生
+      pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+    responsive: [{
+      breakpoint: 480,
+      settings: {
+        centerMode: false,
+      }
+    }]
+  });
 
   // //slide-loop
 

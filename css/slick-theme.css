@@ -204,3 +204,29 @@
     content: '●';
     color: #FF9999;
 }
+
+/* 追加 */
+.slide-loop .slick-slide {
+    width: 260px;
+    height: 180px;
+}
+.slide-loop .slick-active{
+    width: 260px;
+    height: 180px;
+}
+.slide-loop .slick-cloned{
+    width: 260px;
+    height: 180px;
+}
+.slide-loop .slick-current{
+    width: 260px;
+    height: 180px;
+}
+.slide-loop .slick-center{
+    width: 260px;
+    height: 180px;
+}
+/* .slide-loop .slick-track>div {
+    width: 260px;
+    height: 180px;
+} */
